@@ -1,6 +1,6 @@
 compile = ["make", "-s"]
 run = "./main"
-entrypoint = "main.c"
+entrypoint = "maxdivisor.c"
 hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 
 [gitHubImport]
